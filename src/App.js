@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-      <Navbar brand="HOLA MUNDO!!!" />
+      <Navbar brand="APP DE ENSAYO!!!" />
 
       
         <nav className='container mt-4 justify-center'>
