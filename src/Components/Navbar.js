@@ -7,7 +7,7 @@ const Navbar = ({brand}) => {
                 <div className='container'>
                 <a className = "navbar-brand" href = "/">
                     {brand}
-                <p>Bienvenidos a los primeros pasos con React</p>
+                <p>Bienvenidos! Primeros pasos con React.</p>
                 </a>
                 </div>          
             </nav>

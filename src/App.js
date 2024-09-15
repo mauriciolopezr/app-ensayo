@@ -39,11 +39,11 @@ function App() {
 
   return (
     <>
-      <Navbar brand="APP DE ENSAYO!!!" />
+      <Navbar brand="Personajes Rick and Morty!" />
 
-      
-        <nav className='container mt-4 justify-center'>
-            <ul className='pagination justify-center'>
+        <nav className='container mt-1 justify-center'>
+          < Characters characters={characters} />
+          <ul className='pagination justify-content-center'>
                 {
                     (info.prev) ? (
                         <li >
@@ -54,7 +54,7 @@ function App() {
                     )
                         : null
                 }
-                  <h5 className='mt-1'> { page } </h5>
+                  <h5 className='mt-1'>|{page}|</h5>
                 {
                     (info.next) ? (
                         <li >
@@ -65,10 +65,11 @@ function App() {
                         </li>)
                     : null
                 }
-                  < Characters characters={characters} />
+                
                   
                   
             </ul>
+            
         </nav>
       
     </>
